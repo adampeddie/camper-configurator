@@ -69,6 +69,10 @@
 
 :root {
   --radius: 0.35rem;
+  --olive: oklch(0.49 0.062 128);
+  --olive-deep: oklch(0.36 0.048 130);
+  --ember: oklch(0.615 0.158 45);
+  --sand: oklch(0.93 0.021 85);
   --background: oklch(0.972 0.011 89);
   --foreground: oklch(0.255 0.012 60);
   --card: oklch(0.988 0.007 90);
@@ -146,5 +150,22 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
   }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+@utility label-caps {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-muted-foreground);
 }
