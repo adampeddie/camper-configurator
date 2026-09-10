@@ -2,8 +2,8 @@
 
 - [x] Product data for 18 conversion systems
 - [x] Rule-based recommendation engine
-- [ ] Step 1 onboarding screen (van make/model + custom, wheelbase, occupants, budget slider+input, usage, climate, off-grid, shower, hot water, gasless) with validation states
-- [ ] Dashboard with sticky budget summary + 18 system cards with quick swaps
-- [ ] Build summary view with itemised parts, buy links, Buy My Build
-- [ ] Design system: warm off-white, charcoal, olive, burnt orange; fonts
-- [ ] Head metadata on routes
+- [x] Step 1 setup screen with validation
+- [x] Dashboard with sticky budget bar + system cards and quick swaps
+- [x] Build summary with subtotals, buy links, Buy My Build
+- [x] Warm off-white / charcoal / olive / burnt orange design system
+- [ ] Optional: move product data to Lovable Cloud, real supplier links
