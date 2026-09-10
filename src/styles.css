@@ -19,6 +19,12 @@
  */
 
 @theme inline {
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-olive: var(--olive);
+  --color-olive-deep: var(--olive-deep);
+  --color-ember: var(--ember);
+  --color-sand: var(--sand);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
