@@ -53,7 +53,7 @@ function pick(
       (a, b) =>
         Math.abs(TIERS.indexOf(a.tier) - wanted) - Math.abs(TIERS.indexOf(b.tier) - wanted) ||
         a.price - b.price,
-    )[0];
+    )[0]!;
   return { product, reason };
 }
 
